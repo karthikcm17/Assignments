@@ -1,0 +1,191 @@
+<!-- Assignment6-To Build a Responsive Travel Web App Landing Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Mathura Holidays" content="Responsive Travel Web application">
+    <title>Mathura Holidays | Premium Hill Station retreat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        .text-yellow {
+            color: #e7bd34;
+        }
+
+        .btn-gold {
+            background-color: #d4af37;
+            color: white;
+            border: none;
+        }
+
+        .bg-gradient-indigo {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+        }
+    </style>
+
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fs-3 fw-bold" href="#">MATHURA <span class="text-yellow">HOLIDAYS</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-semibold">
+                    <li class="nav-item"><a class="nav-link px-3 active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#destinations">Hill Stations</a></li>
+                    <li class="nav-item"><a class="nav-link px-3 border border-warning rounded text-warning ms-lg-3"
+                            href="#contact">Book Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="d-flex align-items-center text-center text-white"
+        style="height: 85vh; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Assets/hill.jpg') center/cover no-repeat;">
+        <div class="container">
+            <h1 class="display-1 fw-bold mb-3 ">Escape to the <span class="text-yellow">Clouds</span></h1>
+            <p class="fs-4 mb-5 fw-light">From hidden mountain retreats to sun-drenched coastal escapes,<br> We curate
+                journeys that resonate with your soul.</p>
+            <a href="#destinations" class="btn btn-gold btn-lg rounded-pill px-5 py-3 fs-5 fw-bold shadow-lg">View Our
+                Destinations</a>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5 bg-white">
+        <div class="container py-lg-5">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display-4 fw-bold text-dark">Why Choose Mathura Holidays?</h2>
+                    <div class="bg-warning mx-auto my-3" style="width: 400px; height: 4px;"></div>
+                    <p class="text-muted fs-5">We bridge the gap between "tourists" and "explorers" by offering
+                        authentic cultural immersions. Our mission is to provide soulful retreats in the most exclusive
+                        peaks of India.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="p-4 text-center rounded-4 shadow-sm border-top border-warning border-4">
+                        <div class="display-4 text-warning mb-3">🖼️</div>
+                        <h4 class="fw-bold">Handpicked Views</h4>
+                        <p class="text-muted">Every hotel room is selected for its panoramic mountain vistas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 text-center rounded-4 shadow-sm border-top border-danger border-4">
+                        <div class="display-4 text-danger mb-3">🚙</div>
+                        <h4 class="fw-bold">Premium Transit</h4>
+                        <p class="text-muted">Travel the winding roads of every hills in a luxury private SUVs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 text-center rounded-4 shadow-sm border-top border-primary border-4">
+                        <div class="display-4 text-primary mb-3">💰</div>
+                        <h4 class="fw-bold">Price Match Guarantee</h4>
+                        <p class="text-muted">We ensure you receive the absolute best market value for your journey.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="py-5 bg-gradient-indigo text-white">
+        <div class="container py-lg-5">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold">Signature Hill Stations</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-lg text-dark">
+                        <img src="Assets/Shimla.jpg" class="card-img-top" style="height: 250px; object-fit: cover;"
+                            alt="Shimla">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">Shimla, Himachal</h5>
+                            <p class="text-muted">Explore the colonial charm and the famous Ridge in the Queen of Hills.
+                            </p>
+                            <span class="badge bg-info rounded-pill px-3">Luxury Retreat</span><br>
+                            <!-- <span class="badge bg-danger rounded-pill ">Package details</span> -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-lg text-dark">
+                        <img src="Assets/Munnar.jpg" class="card-img-top" style="height: 250px; object-fit: cover;"
+                            alt="Munnar">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">Munnar, Kerala</h5>
+                            <p class="text-muted">Experience the emerald green tea plantations and mist-covered valleys.
+                            </p>
+                            <span class="badge bg-success rounded-pill px-3">Eco-Friendly</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-md-none d-lg-block">
+                    <div class="card h-100 border-0 shadow-lg text-dark">
+                        <img src="Assets/Gulmarg.jpg" class="card-img-top" style="height: 250px; object-fit: cover;"
+                            alt="Gulmarg">
+                        <div class="card-body p-4">
+                            <h5 class="fw-bold">Gulmarg, Kashmir</h5>
+                            <p class="text-muted">Ski across the meadow of flowers and ride the highest cable car in
+                                India.</p>
+                            <span class="badge bg-primary rounded-pill px-3">Adventure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-white">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h2 class="display-4 fw-bold mb-4 text-dark">Ready for the <span class="text-yellow">Peak?</span></h2>
+                    <p class="fs-5 text-muted mb-4">Send us your details and our travel concierge will reach out to you within 24 hours.</p>
+                    <ul class="list-unstyled fs-5">
+                        <li class="mb-2">📍 Mathura Holidays, Trichy, Tamilnadu</li>
+                        <li class="mb-2">📞 +91 78716 55111</li>
+                        <li class="mb-2">📧 tours@mathuraholidays.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-7">
+                    <div class="p-4 p-md-5 bg-light rounded-4 shadow-lg border border-warning border-3">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Name</label>
+                                    <input type="text" class="form-control p-3 border-0 shadow-sm" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label fw-bold">Email</label>
+                                    <input type="email" class="form-control p-3 border-0 shadow-sm" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label fw-bold">Message</label>
+                                    <textarea class="form-control p-3 border-0 shadow-sm" rows="4" placeholder="Tell us about your dream hill station destination..."></textarea>
+                                </div>
+                                <div class="col-12 text-end">
+                                    <button type="submit" class="btn btn-gold btn-lg rounded-pill px-5 shadow mt-3">Send Inquiry</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

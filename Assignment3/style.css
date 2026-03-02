@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(41, 2, 41) ;
+    color: white;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+
+}
+
+.navbar .cont-nav {
+    display: flex;
+    margin: 0, auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0, 15px;
+}
+
+.navbar .cont-nav .logo {
+    color: rgb(41, 2, 41);
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.navbar .cont-nav .navlinks {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar .cont-nav .navlinks a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.maincont #home{
+    padding-top: 140px;
+    justify-items: center;   
+    width: 100%;
+}
+
+.maincont  .title {
+    font-size: 3.5rem;   
+    padding: 20px 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.maincont .cont-home {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(41, 2, 41);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: background 0.3s ease;
+}
+
+.links a:hover {
+    background-color: rgb(41, 2, 41);
+    color: white;
+}
+
+#skills{
+    padding: 50px;
+    text-align: center;
+}
+
+.skill-card{
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    
+}
+.skill-card .card{
+    flex: 1;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 15px;
+}
+#skills .learn{
+    font-size:x-large;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+}
+
+#contact .contact-cont{
+    text-align: center;
+
+}
+#contact .contact-title{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+input{
+    width: 25%;
+    padding: 10px;
+    margin: 20px;
+}
+textarea{
+    width: 50%;
+    margin: 20px 30px;
+}
