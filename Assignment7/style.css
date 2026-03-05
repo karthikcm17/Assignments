@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    background-color:darkorange;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.btn{
+    background-color: lightskyblue;
+    color: blue;
+    border: none;
+    outline: none;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input{
+    padding: 6px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+h3{
+
+    padding: 6px;
+    border: 8px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
